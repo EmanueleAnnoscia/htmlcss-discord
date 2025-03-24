@@ -63,7 +63,6 @@ a {
     margin-left: 30px;
     margin-right: 15px;
     text-decoration: none;
-    text-decoration-color: none;
 }
 
 
@@ -76,7 +75,6 @@ a {
 }
 
 .white-button{
-    text-decoration-color: none;
     color: black;
     background-color: white;
 }
@@ -141,7 +139,6 @@ p{
     max-width: 80%;
     margin: 0 auto;
     justify-content: center;    
-    align-items: top;
 }
 
 .white-card-left{
@@ -158,7 +155,7 @@ p{
 /* INIZIO PRIMA GREY CARD  per altezza segui come sopra da togliere nel caso di contenuti*/
 
 .grey-1{
-    background-color: #F6F6F6;    */
+    background-color: #F6F6F6;
     padding: 50px;
     margin: 0 auto;
 
@@ -264,7 +261,7 @@ li{
 
 .big-column{
     width: 35%;
-    text-align: left;
+    /* text-align: left; */
 }
 
 .language-selection{
@@ -273,9 +270,10 @@ li{
 
 .social-list{
     display: flex;
-    /* text-align: center;
-    align-items: center; */
-    justify-content: space-around;
+    margin: 2px;
+
+    
+    
 }
 
 
