@@ -264,18 +264,25 @@ li{
 
 .big-column{
     width: 35%;
-    text-align: center;
-    /* align-items: center; */
+    text-align: left;
+   
     
 
 }
 
-.language-image{
+.social-list{
+    display: flex;
+    /* text-align: center;
+    align-items: center; */
+    justify-content: space-around;
+}
+
+/* .language-image{
     display: flex;
     justify-content: space-around;
     align-items: center;
     margin: 0;
-}
+} */
 
 .small-column{
     flex-grow: 1;
