@@ -265,9 +265,10 @@ li{
 .big-column{
     width: 35%;
     text-align: left;
-   
-    
+}
 
+.language-selection{
+    display: inline-block;
 }
 
 .social-list{
@@ -277,12 +278,6 @@ li{
     justify-content: space-around;
 }
 
-/* .language-image{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0;
-} */
 
 .small-column{
     flex-grow: 1;
